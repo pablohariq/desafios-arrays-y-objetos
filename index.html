@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pablo 'hariq' Lizama">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Centro Médico Ñuñoa</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header"></div>
+        <h2 class="text-success">Radiología</h2>
+        <div id="primUltRadiologia" class="alert alert-success"></div>
+        <table id="tablaRadiologia" class="table texto-tabla">
+            <tbody id="cuerpoTablaRad"></tbody> <!-- en esta parte el script escribe los datos -->
+        </table>
+    
+        <h2 class="text-warning">Traumatología</h2>
+        <div id="primUltTraumatologia" class="alert alert-warning"></div>
+        <table id="tablaTrauma" class="table texto-tabla">
+            <tbody id="cuerpoTablaTrauma"></tbody> <!-- en esta parte el script escribe los datos -->
+        </table>
+    
+        <h2 class="text-primary">Dental</h2>
+        <div id="primUltDental" class="alert alert-primary"></div>
+        <table id="tablaDental" class="table texto-tabla">
+            <tbody id="cuerpoTablaDental"></tbody> <!-- en esta parte el script escribe los datos -->
+        </table>
+    
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
